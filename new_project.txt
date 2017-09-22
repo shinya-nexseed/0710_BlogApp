@@ -1,0 +1,14 @@
+【Laravel5プロジェクト新規作成手順】
+
+①ターミナルでhtdocsまで移動
+cd /Applications/XAMPP/htdocs
+
+②Laravelプロジェクト作成
+composer create-project laravel/laravel --prefer-dist PROJECT_NAME 5.1
+
+③各種設定
+https://laravel10.wordpress.com/2015/02/13/laravel%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/
+のページの4. 環境設定から
+※DBの設定はsocketも含める
+
+④開発

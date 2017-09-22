@@ -1,0 +1,14 @@
+■ フォルダ構成
+C → app/Http/Controllers/
+V → resources/views/
+M → app/
+R → app/Http/
+
+■ URLの違い
+localhost/0710_Web/seed_sns/view.php?id=4
+↑
+localhost/0710_Web/seed_sns/tweets/show/4
+
+localhost/0710_Web/seed_sns/timeline.php
+↑
+localhost/0710_Web/seed_sns/tweets/index

@@ -12,3 +12,30 @@ localhost/0710_Web/seed_sns/tweets/show/4
 localhost/0710_Web/seed_sns/timeline.php
 ↑
 localhost/0710_Web/seed_sns/tweets/index
+
+■ MVCモデル
+M - Model - DBとのやりとり
+V - View - 表示（HTML/CSS）
+C - Controller - 処理（ロジック）
+R - Route - 受付嬢（URLリクエストを最初に受け取ってさばく）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

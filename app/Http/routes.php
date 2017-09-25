@@ -18,8 +18,8 @@
 // Route::get('リクエスト', 'コントローラ名@メソッド名');
 // リクエストに対応するメソッドを指定する
 Route::get('/', 'WelcomeController@index');
-Route::get('/contact', 'WelcomeController@contact');
-
+Route::get('/contact', 'PagesController@contact');
+Route::get('/about', 'PagesController@about');
 
 
 

@@ -3,6 +3,7 @@ C → app/Http/Controllers/
 V → resources/views/
 M → app/
 R → app/Http/
+D → database/migrations/
 
 ■ URLの違い
 localhost/0710_Web/seed_sns/view.php?id=4
@@ -19,10 +20,16 @@ V - View - 表示（HTML/CSS）
 C - Controller - 処理（ロジック）
 R - Route - 受付嬢（URLリクエストを最初に受け取ってさばく）
 
+■各種ファイルの作成コマンド
+C - php artisan make:controller 
+D - php artisan make:migration
+M - php artisan make:model
 
-
-
-
+■テーブル作成のフロー
+①Migrationファイルを作成
+②カラム作成プログラム記述
+③php artisan migrateコマンドでテーブルをマイグレーションする
+※マイグレーションしたあとのファイルをいじってはいけません。
 
 
 

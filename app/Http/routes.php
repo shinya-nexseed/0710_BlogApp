@@ -21,8 +21,8 @@ Route::get('/', 'WelcomeController@index');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/about', 'PagesController@about');
 
-
-
+// articlesリソース用のルート（7つのメソッド分）
+Route::get('articles', 'ArticlesController@index');
 
 
 

@@ -31,6 +31,11 @@ M - php artisan make:model
 ③php artisan migrateコマンドでテーブルをマイグレーションする
 ※マイグレーションしたあとのファイルをいじってはいけません。
 
+■Eloquentについて
+SQL文を使わずにデータ操作をするためのライブラリ
+all() → 全件取得
+findOrFail($id) → 一件取得もしくは存在しなければエラー
+lists() → カラムの指定（*にするのか、`id`,`tweet`みたいに制限するのか）
 
 
 

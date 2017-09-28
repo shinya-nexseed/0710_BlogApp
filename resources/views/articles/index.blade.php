@@ -6,7 +6,9 @@
 
   @foreach($articles as $article)
     <div>
-      <h2>{{ $article['title'] }}</h2>
+      <h2>
+        <a href="articles/{{ $article['id'] }}">{{ $article['title'] }}</a>
+      </h2>
     </div>
     {{-- {{ $hoge }} --}}
   @endforeach

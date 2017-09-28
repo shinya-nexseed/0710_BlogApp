@@ -23,6 +23,9 @@ Route::get('/about', 'PagesController@about');
 
 // articlesリソース用のルート（7つのメソッド分）
 Route::get('articles', 'ArticlesController@index');
+// {id}→対応するメソッドの引数になる
+// {id}→show($id){}
+Route::get('articles/{id}', 'ArticlesController@show');
 
 
 
